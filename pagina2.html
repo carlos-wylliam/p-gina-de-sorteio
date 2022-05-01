@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Sorteio - Ganhador</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #D4D4CE;
+            font-family: 'Poppins Regular';
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .container h1 {
+            color: #023246;
+            font-size: 55px;
+            font-weight: 100;
+            margin-top: 40px;
+        }
+
+        .container h2 {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-weight: 100;
+            color: #023246;
+        }
+
+        .circle {
+            width: 120px;
+            height: 120px;
+            padding: 5px;
+
+            border-color: #287094;
+            border-style: solid;
+            border-radius: 50%;
+            margin: auto;
+
+        }
+
+        .container h3 {
+            color: #023246;
+            margin-top: 45px;
+
+
+        }
+
+        #SA {
+            margin-top: 30px;
+            padding: 10px;
+            width: 170px;
+            background-color: #287094;
+            border: none;
+            border-radius: 9px;
+            color: #F6F6F6;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        img {
+            padding-top: 10px;
+            padding-left: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-left: 20px;
+        }
+
+        @media screen and (max-width: 700px){
+            .container h1{
+                font-size: 35px;
+                text-align: center;
+
+            }
+            .container h2{
+                font-size: 25px;
+                text-align: center;
+            }
+            .circle{
+                width: 100px;
+                height: 100px;
+                
+            }
+            .circle h3{
+                font-size: 17px;
+                margin-bottom: 20px;
+                
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sorteador</h1>
+        <h2>Resultado</h2>
+        <div class="circle">
+            <h3 id="winner" >GANHADOR</h3>
+        </div>
+        <button onclick="sortear()" id="SA">SORTEAR AGORA!</button>
+        <a href="./index.html"><img src="./assets/blue_re-pict-house-base.png_32.png"></a>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+
+</html>

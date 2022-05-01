@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #D4D4CE;
+    font-family: 'Poppins Regular';
+}
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    color: #023246;
+    font-size: 55px;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+.container h2{
+    margin-top: 25px;
+    padding: 10px;
+    color: #023246;
+    font-weight: 100;
+}
+
+.container input{
+    width: 575px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    background-color: #F6F6F6;
+}
+
+#blank{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    width: 170px;
+    background-color: #287094;
+    border: none;
+    border-radius: 9px;
+    color: #F6F6F6;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer; 
+}
+
+#add {
+    width: 80px;
+    height: 30px;
+    background-color: #287094;
+    border: none;
+    border-radius: 4px;
+    color: #F6F6F6;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.participantes{
+    width: 575px;
+    height: 350px;
+    
+    background-color: #F6F6F6;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.participantes h3{
+    color: #F6F6F6;
+    padding: 10px;
+    background-color: #287094;
+    border-radius: 3px;
+}
+
+::placeholder{
+    padding-left: 5px;
+}
+
+li{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 700px){
+    .container h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .container h2{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .container input{
+        width: 300px;
+    }
+    #blank{
+        margin-top: 50px;
+    }
+}
